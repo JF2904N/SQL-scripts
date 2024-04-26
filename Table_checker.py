@@ -2,9 +2,9 @@ import pandas as pd
 import pyodbc
 
 # Connection parameters
-server = r'SQLODSDEV\ODS'
-database = 'TempDataLake'
-conn_str = f'DRIVER={{ODBC DRIVER 13 for SQL Server}};SERVER={server};DATABASE={database};Trusted_Connection=yes;'
+server = r'-'
+database = '-'
+conn_str = f'-'
 
 # CSV file path
 csv_file = 'synthetic_data.csv'
